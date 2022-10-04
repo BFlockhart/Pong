@@ -19,10 +19,14 @@ main {
 
 .navBox {
     display: flex;
+    flex-wrap: wrap;
     background-image: url(Images/Gold.jpg);
     justify-content: space-around;
     align-items: center;
     height: 60px;
+}
+.navCent {
+    padding-left: 70px;
 }
 
 /* unvisited link */
