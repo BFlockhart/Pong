@@ -306,7 +306,7 @@ p, .margin {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: url(Images/back.png);
+    background: url(Images/Gold.jpg);
     margin-right: 650px;
     margin-left: 650px;
     border-radius: 10%;
@@ -322,7 +322,7 @@ p, .margin {
 }
 
 .cruiser {
-    background: url(Images/back.png);
+    background: url(Images/Gold.jpg);
     margin: 4px;
     border-radius: 10%;
 }
@@ -336,7 +336,7 @@ p, .margin {
 }
 
 .shirt {
-    background: url(Images/back.png);
+    background: url(Images/Gold.jpg);
     margin: 4px;
     border-radius: 10%;
     align-items: center;
