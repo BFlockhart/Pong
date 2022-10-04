@@ -1,0 +1,348 @@
+* {
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url(Images/Background.jpg);
+}
+
+main {
+    flex-grow: 1;
+}
+
+.navBox {
+    display: flex;
+    background-color: #F94892;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+/* unvisited link */
+.nav:link {
+color: #FBDF07;
+text-decoration: none;
+}
+
+/* visited link */
+.nav:visited {
+color: #FBDF07;
+text-decoration: none;
+}
+
+/* mouse over link */
+.nav:hover {
+color: #89CFFD;
+text-decoration: none;
+}
+
+/* selected link */
+.nav:active {
+color: #89CFFD;
+text-decoration: none;
+}
+
+/* .cur_page_nav {
+    color: #89CFFD;
+} */
+
+footer {
+    display: flex;
+    background-color: #F94892;
+    height: 40px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+    /* border: solid black; */
+}
+.home_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border:solid black; */
+    height: 82vh;
+}
+
+.home {
+    background-color: #FF7F3F;
+    margin: 0px 300px 20px 300px;
+    /* margin-bottom: 20px; */
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
+    padding: 50px;
+    border-radius: 1%;
+}
+
+.center {
+    text-align: center;
+}
+
+/* History Page ----------------------------------------------------------- */
+.history {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hall_container {
+    background: rgba(137, 207, 253, 0.8);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5%;
+}
+
+.hall_of_fame_grid {
+    /* border: solid black; */
+    width: 850px;
+    display: grid;
+    grid-template-columns: auto auto;
+
+}
+
+.member {
+    background-color: #FF7F3F;
+    margin: 15px;
+    border-radius: 10%;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    /* border: solid black; */
+    text-align: center;
+}
+
+.hall_header {
+    display: flex;
+    justify-content: center;
+    /* border: solid black; */
+    /* margin-right: 200px; */
+    /* margin-left: 300px; */
+}
+
+.shield_box {
+    background-color: #FF7F3F;
+    margin: 4px;
+    border-radius: 10%;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    /* border: solid black; */
+    text-align: center;
+}
+
+/* Sign up page ----------------------------------------------------------- */
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 300px; */
+    height: 84vh;
+
+}
+
+.sign {
+    display: flex;
+    justify-content: center;
+    border: 2px solid lightgray;
+    background-color: #FF7F3F;
+    padding: 25px 125px 50px 125px;
+    border-radius: 25px;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    /* margin-top: -150px; */
+    /* border: solid black; */
+  }
+
+
+  .myForm {
+    border: 2px solid lightgray;
+    border-radius:42px;
+    margin-bottom: 5px;
+    text-align: left;
+    text-indent: 10px;
+    height: 40px;
+    width: 300px;
+
+}
+
+.myButton {
+	background-color:#F94892;
+	border-radius:42px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	height: 40px;
+    width: 300px;
+	text-decoration:none;
+    margin-top: 15px;
+}
+.myButton:hover {
+	background-color:#89CFFD;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+p, .margin {
+    margin-right: 10px;
+}
+
+.page_link{
+    color: white;
+}
+.page_link:hover {
+    color: #89CFFD;
+    }
+
+.selectBox {
+
+    /* styling */
+    background-color: white;
+    /* border: thin solid #F94892; */
+    border-radius: 4px;
+    width: 150px;
+    height: 30px;
+    padding-left: 5px;
+
+    /* reset */
+
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
+  .selectBox {
+    background-image:
+      linear-gradient(45deg, transparent 50%, #89CFFD 50%),
+      linear-gradient(135deg, #89CFFD 50%, transparent 50%),
+      linear-gradient(to right, #F94892, #F94892);
+    background-position:
+      calc(100% - 15px) 1em,
+      calc(100% - 10px) 1em,
+      100% 0;
+    background-size:
+      5px 5px,
+      5px 5px,
+      2.5em 2.5em;
+    background-repeat: no-repeat;
+  }
+
+  .selectBox:focus {
+    outline-style: thin solid;
+    outline-color: #89CFFD;
+  }
+
+  /* Gospel Page----------------------------------------------------------- */
+  .founder_container {
+    background: rgba(137, 207, 253, 0.8);
+    margin: 0px 700px 20px 700px;
+    /* margin-bottom: 20px; */
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
+    padding: 20px;
+    border-radius: 5%;
+  }
+
+  .goody_div {
+    display: flex;
+    justify-content: center;
+}
+.good_pic {
+    border-radius: 50%;
+    height: 400px;
+    width: 300px;
+}
+
+.law_box {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 400px;
+    margin-left: 400px;
+    padding-bottom: 20px;
+}
+
+.law_div {
+    background-color: #FF7F3F;
+    width: 800px;
+    padding: 20px;
+    border-radius: 6%;
+}
+
+/*Store Page ---------------------------------------------------------------- */
+.main_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FF7F3F;
+    margin-right: 650px;
+    margin-left: 650px;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    padding-top: 20px;
+}
+.cruisers {
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    justify-items: center;
+    /* background-color: red; */
+}
+
+.cruiser {
+    background-color: #FF7F3F;
+    margin: 4px;
+    border-radius: 10%;
+}
+
+.shirts {
+    display: flex;
+    justify-content: space-around;
+    /* border: solid black; */
+    margin-right: 300px;
+    margin-left: 300px;
+}
+
+.shirt {
+    background-color: #FF7F3F;
+    margin: 4px;
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
+    /* border: solid black; */
+    text-align: center;
+}
+
+.items_container {
+    background: rgba(137, 207, 253, 0.8);
+    margin: 0px 100px 20px 100px;
+    /* margin-bottom: 20px; */
+    /* margin-left: 100px; */
+    /* margin-right: 100px; */
+    padding: 20px;
+    border-radius: 5%;
+}
+
+/* Bazinga ----------------------------------------------------------------- */
+.pic {
+    height: 100vh;
+}
