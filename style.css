@@ -6,16 +6,20 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url(Images/Background.jpg);
+    background-image: url(Images/Wall2.jpg);
 }
 
 main {
     flex-grow: 1;
 }
 
+.head_text {
+    color: white;
+}
+
 .navBox {
     display: flex;
-    background-color: #F94892;
+    background-image: url(Images/Gold.jpg);
     justify-content: space-around;
     align-items: center;
     height: 60px;
@@ -23,35 +27,36 @@ main {
 
 /* unvisited link */
 .nav:link {
-color: #FBDF07;
+color: Black;
 text-decoration: none;
 }
 
 /* visited link */
 .nav:visited {
-color: #FBDF07;
+color: Black;
 text-decoration: none;
 }
 
 /* mouse over link */
 .nav:hover {
-color: #89CFFD;
+color: #FBDF07;
 text-decoration: none;
 }
 
 /* selected link */
 .nav:active {
-color: #89CFFD;
+color: #FBDF07;
 text-decoration: none;
 }
 
-/* .cur_page_nav {
-    color: #89CFFD;
-} */
+.current {
+    color: #FBDF07;
+    text-decoration: none;
+}
 
 footer {
     display: flex;
-    background-color: #F94892;
+    background-image: url(Images/Gold.jpg);
     height: 40px;
     justify-content: flex-end;
     align-items: center;
@@ -87,7 +92,7 @@ footer {
 }
 
 .hall_container {
-    background: rgba(137, 207, 253, 0.8);
+    background: rgba(211, 211, 211, 0.6);
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
@@ -103,7 +108,7 @@ footer {
 }
 
 .member {
-    background-color: #FF7F3F;
+    background: url(Images/back.png);
     margin: 15px;
     border-radius: 10%;
     padding-right: 20px;
@@ -122,7 +127,7 @@ footer {
 }
 
 .shield_box {
-    background-color: #FF7F3F;
+    background: url(Images/back.png);
     margin: 4px;
     border-radius: 10%;
     padding-right: 100px;
@@ -132,6 +137,14 @@ footer {
     margin-bottom: 200px;
     /* border: solid black; */
     text-align: center;
+}
+
+.hist {
+    background: rgba(211, 211, 211, 0.6);
+    margin: 0px 350px 20px 350px;
+    padding: 20px;
+    border-radius: 1%;
+    font-size: 18px;
 }
 
 /* Sign up page ----------------------------------------------------------- */
@@ -250,7 +263,7 @@ p, .margin {
 
   /* Gospel Page----------------------------------------------------------- */
   .founder_container {
-    background: rgba(137, 207, 253, 0.8);
+    background: rgba(211, 211, 211, 0.6);
     margin: 0px 700px 20px 700px;
     /* margin-bottom: 20px; */
     /* margin-left: 100px; */
@@ -272,16 +285,21 @@ p, .margin {
 .law_box {
     display: flex;
     justify-content: space-around;
-    margin-right: 400px;
-    margin-left: 400px;
+    margin-right: 500px;
+    margin-left: 500px;
+    padding-top: 40px;
     padding-bottom: 20px;
+    /* border: solid red; */
 }
 
 .law_div {
-    background-color: #FF7F3F;
-    width: 800px;
-    padding: 20px;
+    background: url(Images/Scroll.png);
+    width: 1300px;
+    height: 500px;
+    padding: 140px 200px 0px 260px;
+    text-align: center;
     border-radius: 6%;
+    /* border: solid white; */
 }
 
 /*Store Page ---------------------------------------------------------------- */
@@ -290,7 +308,7 @@ p, .margin {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #FF7F3F;
+    background: url(Images/back.png);
     margin-right: 650px;
     margin-left: 650px;
     border-radius: 10%;
@@ -306,7 +324,7 @@ p, .margin {
 }
 
 .cruiser {
-    background-color: #FF7F3F;
+    background: url(Images/back.png);
     margin: 4px;
     border-radius: 10%;
 }
@@ -320,7 +338,7 @@ p, .margin {
 }
 
 .shirt {
-    background-color: #FF7F3F;
+    background: url(Images/back.png);
     margin: 4px;
     border-radius: 10%;
     align-items: center;
@@ -333,7 +351,7 @@ p, .margin {
 }
 
 .items_container {
-    background: rgba(137, 207, 253, 0.8);
+    background: rgba(211, 211, 211, 0.6);
     margin: 0px 100px 20px 100px;
     /* margin-bottom: 20px; */
     /* margin-left: 100px; */
