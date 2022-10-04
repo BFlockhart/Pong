@@ -72,12 +72,9 @@ footer {
 }
 
 .home {
-    background-color: #FF7F3F;
+    background: rgba(211, 211, 211, 0.7);
     margin: 0px 300px 20px 300px;
-    /* margin-bottom: 20px; */
-    /* margin-left: 100px; */
-    /* margin-right: 100px; */
-    padding: 50px;
+    padding: 30px;
     border-radius: 1%;
 }
 
@@ -92,7 +89,7 @@ footer {
 }
 
 .hall_container {
-    background: rgba(211, 211, 211, 0.6);
+    background: rgba(211, 211, 211, 0.7);
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 20px;
@@ -140,7 +137,7 @@ footer {
 }
 
 .hist {
-    background: rgba(211, 211, 211, 0.6);
+    background: rgba(211, 211, 211, 0.7);
     margin: 0px 350px 20px 350px;
     padding: 20px;
     border-radius: 1%;
@@ -295,8 +292,8 @@ p, .margin {
 .law_div {
     background: url(Images/Scroll.png);
     width: 1300px;
-    height: 500px;
-    padding: 140px 200px 0px 260px;
+    height: 756px;
+    padding: 240px 200px 0px 260px;
     text-align: center;
     border-radius: 6%;
     /* border: solid white; */
@@ -363,4 +360,8 @@ p, .margin {
 /* Bazinga ----------------------------------------------------------------- */
 .pic {
     height: 100vh;
+}
+
+ul {
+    text-align: left;
 }
