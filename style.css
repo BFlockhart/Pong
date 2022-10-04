@@ -277,6 +277,7 @@ p, .margin {
     border-radius: 50%;
     height: 500px;
     width: 400px;
+    /* transform: scale(1.5); */
 }
 
 .law_box {
